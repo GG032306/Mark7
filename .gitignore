@@ -1,0 +1,15 @@
+# Ignore authentication tokens and keys
+access_token.txt
+*.env
+__pycache__/
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore massive data files (if you copy your Parquet data over)
+*.parquet
+kaggle_data/
+
+# Ignore Python virtual environments
+bot_env/
